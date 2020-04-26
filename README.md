@@ -7,7 +7,7 @@
      安装方法  composer require yulibo/hyperf-validate
      
 
-注：使用验证类方法的注解@Validation 需要用在由DI创建的类才有作用，
+注：使用验证类方法的注解@Validation 需要用在由DI创建的类才有作用， 
 
 ## 注解
      @Validation
