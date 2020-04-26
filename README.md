@@ -34,7 +34,7 @@ field="data" 方法的参数名，例如 function($data,$array,$array3) 需要�
 
 
 ### 例如 验证控制器Admin 的login方法传的数据，需要如下操作
-```
+```php
 use Ylb\Validate\Annotations\RequestValidation;
 
 /**
@@ -48,7 +48,7 @@ public function login(){
 
 ## 验证类方法数据方法如下
 例如 验证AdminService类的login方法传的数据，需要如下操作
-```
+```php
 use Ylb\Validate\Annotations\Validation;
 
 /**
