@@ -1,0 +1,43 @@
+{
+  "name": "yulibo/hyperf-validate",
+  "type": "library",
+  "keywords": [
+    "php",
+    "swoole",
+    "framework",
+    "hyperf"
+  ],
+  "description": "支持request 和方法场景验证，兼容tp5写法 性能比官方验证器提高50%",
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=7.2",
+    "ext-swoole": ">=4.4",
+    "hyperf/config": "~1.1.0",
+    "hyperf/di": "~1.1.0",
+    "hyperf/framework": "~1.1.0",
+    "hyperf/utils": "~1.1.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "swoft/swoole-ide-helper": "^4.2",
+    "phpmd/phpmd": "^2.6",
+    "friendsofphp/php-cs-fixer": "^2.14"
+  },
+  "suggest": {
+    "ext-json": "Required to use JSON."
+  },
+  "autoload": {
+    "psr-4": {
+      "Ylb\\Validate\\": "src/"
+    }
+  },
+  "extra": {
+    "hyperf": {
+      "config": "Ylb\\Validate\\ConfigProvider"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "prefer-stable": true
+}
