@@ -84,7 +84,7 @@ class ValidationAspect extends AbstractAspect
      */
     private function validationData($validation, $verData, $name, $proceedingJoinPoint, $isRequest = false)
     {
-        $class = 'app\\Validate\\' . $name . 'Validation';
+        $class = 'App\\Validate\\' . $name . 'Validation';
         /**
          * @var Validate $validate
          */
